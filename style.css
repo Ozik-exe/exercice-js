@@ -1,0 +1,58 @@
+.bold{
+    font-weight: bold;
+}
+.changeColor{
+    color: red;
+}
+.faite{
+    text-decoration: line-through;
+    color: rgba(128, 128, 128, 0.463);
+}
+section{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    
+    background-color: beige;
+    align-items: center;
+    width: 100%;
+    min-height: 80vh;
+    gap: 20px;
+    input{
+        padding: 1em;
+        padding-right: 10em;
+        border: 2px solid rgba(128, 128, 128, 0.37);
+        border-radius: 10px;
+    }
+   .btn1{
+    padding: 1em;
+    background-color: orange;
+    border: 0;
+    font-weight: 600;
+    border-radius: 10px;
+   }
+
+    li{
+        background-color: white;
+        padding: 1em;
+        border-radius: 10px;
+        list-style: none;
+        margin-top: 1em;
+        button{
+            border: 0;
+            background-color: white;
+            color: red;
+            margin-left: 25em;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            
+        }
+    }
+    input{
+        margin-top: 10em;
+    }
+
+   
+   #compteur{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   }
+}
